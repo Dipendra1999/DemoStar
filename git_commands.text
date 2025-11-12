@@ -1,0 +1,20 @@
+1. command for cloning the git repository on the local system
+    (it create the folder with the same name of the repository name)
+=>  git clone "link"
+
+2. git configuration command 
+=>    git config --global user.name "User_name"
+=>    git config --global user.email "user_email"
+
+3. To check the status of the file in repository  
+    git status
+
+4. to add the file for commit over the git.(because we can not directly commit the file over github repository)
+    a) git add .    
+    b) git add "file_Name"     for individual file adding
+
+5. to commit the changes inside the file
+    git commit -m "message for the commit"
+
+6. to update the changes inside file over the github
+    git push origin main
